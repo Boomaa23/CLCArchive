@@ -1,0 +1,16 @@
+var browser, brwsr, n;
+
+browser = navigator.platform ;
+document.getElementById("browser").innerHTML=browser; 
+
+brwsr = navigator.appVersion ;
+document.getElementById("brwsr").innerHTML=brwsr;
+
+n=brwsr.search('Android') ;
+if (n > -1){
+document.getElementById("civ1").style.fontSize="13px";
+document.getElementById("civ2").style.fontSize="13px";
+}
+
+
+

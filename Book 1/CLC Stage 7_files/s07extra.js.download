@@ -1,0 +1,20 @@
+var browser, brwsr, n;
+
+browser = navigator.platform ;
+document.getElementById("browser").innerHTML=browser; 
+
+brwsr = navigator.appVersion ;
+document.getElementById("brwsr").innerHTML=brwsr;
+
+
+
+n=brwsr.search('Android') ;
+if (n > -1){
+document.getElementById("pg14cptn").style.fontSize="13px";
+	document.getElementById("caerleon").style.height="240px";
+	document.getElementById("pg13panel").style.height="265px";
+	document.getElementById("epicurus").style.height="225px";
+}
+
+
+
